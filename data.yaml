@@ -1,0 +1,13 @@
+names:
+- Eeshaan-NVHK
+- unrecognized
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: face_recognizer_2
+  url: https://universe.roboflow.com/eeshaan/face_recognizer_2/dataset/1
+  version: 1
+  workspace: eeshaan
+test: ../test/images
+train: face_recognizer_2--1/train/images
+val: face_recognizer_2--1/valid/images
