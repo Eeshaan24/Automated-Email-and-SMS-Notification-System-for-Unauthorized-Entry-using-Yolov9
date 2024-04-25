@@ -19,8 +19,8 @@ from utils.general import (LOGGER, Profile, check_file, check_img_size, check_im
 from utils.plots import Annotator, colors, save_one_box
 from utils.torch_utils import select_device, smart_inference_mode
 
-email = "eeshaandhanuka24@gmail.com"
-receiver_email = "eeshaandhanuka24@gmail.com"
+email = "your_mail"
+receiver_email = "your_email"
 subject = "ALERT!!"
 message = "Some Unauthorized entry has been made. Kindly check"
 text = f"Subject: {subject}\n\n{message}"
@@ -31,11 +31,11 @@ server.login(email, "amqr iabj aboo mins")
 
 from twilio.rest import Client
 
-account_sid = 'AC5e2259230a5462e451e2ba3275087f55'
-auth_token = 'c46364129e6cb1e418cabe042f122ba5'
+account_sid = 'Account_ID '
+auth_token = 'Authentication_token'
 
-twilio_number = '+18317264593'
-my_phone_number = '+919937040121'
+twilio_number = 'twilio number provided by twilio'
+my_phone_number = 'your phone number'
 
 client = Client(account_sid, auth_token)
 
